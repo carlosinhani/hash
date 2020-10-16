@@ -13,7 +13,7 @@ h1{
     background-color: #34495e;
     display: inline-block;
     padding: 40px;
-    font-size: 60;
+    font-size: 60px;
     margin: 5px;
     cursor: pointer;
     border-radius: 10px;
@@ -39,4 +39,5 @@ h1{
     font-weight: bold;
     cursor: pointer;
 }
+
 

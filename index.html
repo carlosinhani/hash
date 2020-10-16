@@ -4,32 +4,33 @@
     <title>Jogo da Velha</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    
 </head>
 
 <body>
     <h1>Jogo da Velha</h1>
 
     <div>
-        <div id="1" class="quadrado">-</div>
-        <div id="2" class="quadrado">-</div>
-        <div id="3" class="quadrado">-</div>
+        <div id="1" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="2" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="3" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
     </div>
 
     <div>
-        <div id="4" class="quadrado">-</div>
-        <div id="5" class="quadrado">-</div>
-        <div id="6" class="quadrado">-</div>
+        <div id="4" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="5" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="6" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
     </div>
 
     <div>
-        <div id="7" class="quadrado">-</div>
-        <div id="8" class="quadrado">-</div>
-        <div id="9" class="quadrado">-</div>
+        <div id="7" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="8" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="9" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
     </div>
 
     <div class="jogador">
         <label>
-            Jogador
+            Jogador:
         </label>
         <label id="jogador-selecionado">
 
@@ -38,7 +39,7 @@
 
     <div class="vencedor">
         <label>
-            Vencedor
+            Vencedor:
         </label>
         <label id="vencedor-selecionado">
             
@@ -46,10 +47,11 @@
     </div>
 
     <div >
-        <button class="button">
+        <button class="button" onclick="reiniciar()">
             Reiniciar
         </button>
     </div>
     
 </body>
+    <script src="script.js"></script>
 </html>
